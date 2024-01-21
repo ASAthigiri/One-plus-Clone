@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Navigation Bar</title>
+
+  <link rel="icon" href="file:///F:/Work%20task/Stras/oneplus.png">
+
+  <link rel="stylesheet" type="text/css"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+  <style type="text/css">
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    body {
+      background-color: black;
+      font-family: "yu gothic";
+      font-weight: normal;
+    }
+
+    nav {
+      background-color: #fff;
+      position: fixed;
+      width: 100%;
+
+    }
+
+    ul {
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline-block;
+      padding: 15px;
+      color: #828282;
+      width: 130px;
+      font-size: 15px;
+      border-bottom: 3px solid transparent;
+      transition: .2s ease;
+    }
+
+    nav ul li:hover {
+      color: #eb0028;
+      border-bottom: 3px #eb0028 solid;
+      cursor: pointer;
+    }
+
+    .new {
+      color: #eb0028;
+    }
+
+    img {
+      width: 40px;
+      height: auto;
+      position: relative;
+      top: 10px;
+      margin-right: 100px;
+    }
+
+    nav ul li .fa-caret-down {
+      transition: transform .2s ease-in-out;
+    }
+
+    nav ul li:hover .fa-caret-down {
+      transform: rotate(180deg);
+    }
+
+
+
+    .image {
+      background: url("file:///D:/workspace/Images%20of%20Company/Oneplus%206T%20main%20image.jpg");
+      height: 1000px;
+      background-attachment: fixed;
+      background-size: cover;
+
+
+    }
+
+    nav ul li ul {
+      background-color: #fff;
+      border-top: 1px solid #d9d9d9;
+      width: 100%;
+      position: absolute;
+      left: 0px;
+      margin-top: 18px;
+      display: none;
+    }
+
+    nav ul li:hover ul {
+      display: block;
+    }
+
+    nav ul li ul li {
+      display: inline-block;
+      padding: 15px;
+      color: #101920;
+      width: 130px;
+      margin: 20px;
+      font-size: 25px;
+      border-bottom: none;
+      transition: .2s ease;
+    }
+
+    nav ul li ul li:hover {
+      display: inline-block;
+      padding: 15px;
+      color: #eb0028;
+
+      font-size: 25px;
+      border-bottom: none;
+    }
+
+    p {
+      color: #101920;
+      font-size: 15px;
+    }
+
+    nav ul li ul li:hover p {
+      color: #eb0028;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!--Creating Navbar -->
+
+  <nav>
+    <ul>
+      <img src="file:///F:/Work%20task/Stras/oneplus.png">
+      <li>OnePlus 6T<sup class="new"> new</sup></li>
+      <li>Accessories <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+        <ul>
+          <li><i class="fas fa-headset"></i>
+            <br />
+            <p>Head Phone</p>
+          </li>
+          <li><i class="fas fa-suitcase"></i>
+            <br />
+            <p>Mobile Case</p>
+          </li>
+          <li><i class="fas fa-plug"></i>
+            <br />
+            <p>Power</p>
+          </li>
+          <li><i class="fas fa-file"></i>
+            <br />
+            <p>Protection</p>
+          </li>
+        </ul>
+      </li>
+      <li>Support</li>
+      <li>Brand</li>
+      <li>Community</li>
+      <li>Experince & Retail</li>
+    </ul>
+  </nav>
+  <!--background image -->
+
+  <div class="image">
+
+  </div>
+</body>
+
+</html>
