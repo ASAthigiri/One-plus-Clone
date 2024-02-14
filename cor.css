@@ -1,0 +1,332 @@
+.cssbuttons-io {
+  position: relative;
+  font-family: inherit;
+  font-weight: 200;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  border-radius: 0;
+  border: none;
+  background: #818589;
+  color: ghostwhite;
+  overflow: hidden;
+  height: 45px;
+  width: 110px;
+}
+
+.cssbuttons-io svg {
+  width: 100px;
+  height: 1.2em;
+  margin-right: 0.1em;
+}
+
+.cssbuttons-io span {
+  position: relative;
+  z-index: 10;
+  transition: color 0.4s;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8em 1.2em 0.8em 1.05em;
+}
+
+.cssbuttons-io::before,
+.cssbuttons-io::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.cssbuttons-io::before {
+  content: "";
+  background: #000;
+  width: 300px;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.cssbuttons-io:hover::before {
+  transform: translate3d(100%, 0, 0);
+}
+
+.cssbuttons-io:active {
+  transform: scale(0.95);
+}
+
+.cssbuttons-ios {
+  position: relative;
+  font-family: inherit;
+  font-weight: 200;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  border-radius: 0;
+
+  background: #818589;
+  color: black;
+  overflow: hidden;
+  height: 45px;
+  width: 100px;
+  margin: 0.5px;
+  border: 0.5px 0.5px 0.5px 0.5px;
+}
+
+.cssbuttons-ios svg {
+  width: 100px;
+
+  height: 1.2em;
+  margin-right: 0.1em;
+}
+
+.cssbuttons-ios span {
+  position: relative;
+
+  z-index: 10;
+  transition: color 0.4s;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8em 1.2em 0.8em 1.05em;
+}
+
+.cssbuttons-ios::before,
+.cssbuttons-ios::after {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.cssbuttons-ios::before {
+  content: "";
+  background: white;
+  color: black;
+
+  margin: 1px;
+  width: 300px;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.cssbuttons-ios:hover::before {
+  transform: translate3d(100%, 0, 0);
+
+}
+
+.cssbuttons-ios:active {
+  transform: scale(0.95);
+}
+
+.color {
+  background-color: #e6e5e5;
+}
+
+.cssbuttons-ioss {
+  position: relative;
+  font-family: inherit;
+  font-weight: 200;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  border-radius: 0;
+  border: none;
+  background: #818589;
+  color: ghostwhite;
+  overflow: hidden;
+  height: 45px;
+  width: 2300px;
+}
+
+.cssbuttons-ioss svg {
+  width: 100px;
+  height: 1.2em;
+  margin-right: 0.1em;
+}
+
+.cssbuttons-ioss span {
+  position: relative;
+  z-index: 10;
+  transition: color 0.4s;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8em 1.2em 0.8em 1.05em;
+}
+
+.cssbuttons-ioss::before,
+.cssbuttons-ioss::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.cssbuttons-ioss::before {
+  content: "";
+  background: #000;
+  width: 300px;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.cssbuttons-ioss:hover::before {
+  transform: translate3d(100%, 0, 0);
+}
+
+.cssbuttons-ioss:active {
+  transform: scale(0.99);
+}
+
+spam {
+  color: red;
+}
+
+.hello {
+  background-color: black;
+}
+
+.hhhh {
+  color: white;
+}
+
+.cssbuttonss-io {
+  position: relative;
+  font-family: inherit;
+  font-weight: 200;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  border-radius: 0;
+  border: none;
+  background: lightgray;
+  color: black;
+  overflow: hidden;
+  height: 45px;
+  width: 110px;
+}
+
+.cssbuttonss-io svg {
+  width: 100px;
+  height: 1.2em;
+  margin-right: 0.1em;
+}
+
+.cssbuttonss-io span {
+  position: relative;
+  z-index: 10;
+  transition: color 0.4s;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8em 1.2em 0.8em 1.05em;
+}
+
+.cssbuttonss-io::before,
+.cssbuttonss-io::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.cssbuttonss-io::before {
+  content: "";
+  background: white;
+  width: 300px;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.cssbuttonss-io:hover::before {
+  transform: translate3d(100%, 0, 0);
+}
+
+.cssbuttonss-io:active {
+  transform: scale(0.95);
+}
+
+
+
+.cssbuttonss-ios {
+  position: relative;
+  font-family: inherit;
+  font-weight: 200;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  border-radius: 0;
+
+  background: lightgray;
+  color: white;
+  overflow: hidden;
+  height: 45px;
+  width: 100px;
+  margin: 0.5px;
+  border: 0.5px 0.5px 0.5px 0.5px;
+}
+
+.cssbuttonss-ios svg {
+  width: 100px;
+
+  height: 1.2em;
+  margin-right: 0.1em;
+}
+
+.cssbuttonss-ios span {
+  position: relative;
+
+  z-index: 10;
+  transition: color 0.4s;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8em 1.2em 0.8em 1.05em;
+}
+
+.cssbuttonss-ios::before,
+.cssbuttonss-ios::after {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.cssbuttonss-ios::before {
+  content: "";
+
+  color: white;
+  background: black;
+  margin: 1px;
+  width: 300px;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.cssbuttonss-ios:hover::before {
+  transform: translate3d(100%, 0, 0);
+
+}
+
+.cssbuttonss-ios:active {
+  transform: scale(0.95);
+}
+
+.link-secondary {
+  float: left;
+}
+
+.zoom:hover {
+  -ms-transform: scale(0.5);
+
+  -webkit-transform: scale(0.95);
+
+  transform: scale(0.96);
+}
