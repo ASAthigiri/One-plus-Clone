@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: black;
+  font-family: "yu gothic";
+  font-weight: normal;
+}
+
+
+ul {
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 5px;
+  color: black;
+  width: 130px;
+  font-size: 15px;
+  border-bottom: 3px solid transparent;
+  transition: .2s ease;
+}
+
+nav ul li:hover {
+  color: black;
+  border-bottom: 3px #eb0028 solid;
+  cursor: pointer;
+}
+
+
+.hell {
+  width: 100px;
+  height: auto;
+  position: relative;
+  top: 0;
+  margin-right: 100px;
+}
+
+nav ul li .fa-caret-down {
+  transition: transform .2s ease-in-out;
+}
+
+nav ul li:hover .fa-caret-down {
+  transform: rotate(180deg);
+}
