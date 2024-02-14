@@ -2,171 +2,494 @@
 <html>
 
 <head>
-  <title>Navigation Bar</title>
-
-  <link rel="icon" href="file:///F:/Work%20task/Stras/oneplus.png">
-
-  <link rel="stylesheet" type="text/css"
-    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
-  <style type="text/css">
-    * {
-      margin: 0px;
-      padding: 0px;
-    }
-
-    body {
-      background-color: black;
-      font-family: "yu gothic";
-      font-weight: normal;
-    }
-
-    nav {
-      background-color: #fff;
-      position: fixed;
-      width: 100%;
-
-    }
-
-    ul {
-      text-align: center;
-    }
-
-    nav ul li {
-      display: inline-block;
-      padding: 15px;
-      color: #828282;
-      width: 130px;
-      font-size: 15px;
-      border-bottom: 3px solid transparent;
-      transition: .2s ease;
-    }
-
-    nav ul li:hover {
-      color: #eb0028;
-      border-bottom: 3px #eb0028 solid;
-      cursor: pointer;
-    }
-
-    .new {
-      color: #eb0028;
-    }
-
-    img {
-      width: 40px;
-      height: auto;
-      position: relative;
-      top: 10px;
-      margin-right: 100px;
-    }
-
-    nav ul li .fa-caret-down {
-      transition: transform .2s ease-in-out;
-    }
-
-    nav ul li:hover .fa-caret-down {
-      transform: rotate(180deg);
-    }
-
-
-
-    .image {
-      background: url("file:///D:/workspace/Images%20of%20Company/Oneplus%206T%20main%20image.jpg");
-      height: 1000px;
-      background-attachment: fixed;
-      background-size: cover;
-
-
-    }
-
-    nav ul li ul {
-      background-color: #fff;
-      border-top: 1px solid #d9d9d9;
-      width: 100%;
-      position: absolute;
-      left: 0px;
-      margin-top: 18px;
-      display: none;
-    }
-
-    nav ul li:hover ul {
-      display: block;
-    }
-
-    nav ul li ul li {
-      display: inline-block;
-      padding: 15px;
-      color: #101920;
-      width: 130px;
-      margin: 20px;
-      font-size: 25px;
-      border-bottom: none;
-      transition: .2s ease;
-    }
-
-    nav ul li ul li:hover {
-      display: inline-block;
-      padding: 15px;
-      color: #eb0028;
-
-      font-size: 25px;
-      border-bottom: none;
-    }
-
-    p {
-      color: #101920;
-      font-size: 15px;
-    }
-
-    nav ul li ul li:hover p {
-      color: #eb0028;
-    }
+  <title>OnePlus Official Site | OnePlus India</title>
+  <link rel="icon" type="image/x-icon" href="image/logo-1.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="cor.css" />
   </style>
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <img class="hell" src="image/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-  <!--Creating Navbar -->
-
-  <nav>
-    <ul>
-      <img src="file:///F:/Work%20task/Stras/oneplus.png">
-      <li>OnePlus 6T<sup class="new"> new</sup></li>
-      <li>Accessories <i class="fa fa-caret-down" aria-hidden="true"></i>
-
-        <ul>
-          <li><i class="fas fa-headset"></i>
-            <br />
-            <p>Head Phone</p>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Phone</a>
           </li>
-          <li><i class="fas fa-suitcase"></i>
-            <br />
-            <p>Mobile Case</p>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">TV & Display</a>
           </li>
-          <li><i class="fas fa-plug"></i>
-            <br />
-            <p>Power</p>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Audio & Watch</a>
           </li>
-          <li><i class="fas fa-file"></i>
-            <br />
-            <p>Protection</p>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Tablet</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Accessories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Offer</a>
           </li>
         </ul>
-      </li>
-      <li>Support</li>
-      <li>Brand</li>
-      <li>Community</li>
-      <li>Experince & Retail</li>
-    </ul>
+        <hr>
+        <img src="image/search.png" height="auto" width="20px">
+        &ensp; &ensp; &ensp;
+        <img src="image/trolley.png" height="auto" width="20px"> &ensp; &ensp; &ensp;
+        <img src="cell/user.png" height="auto" width="20px">
+      </div>
+    </div>
   </nav>
-  <!--background image -->
 
-  <div class="image">
 
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image/121.png" class="d-block w-100 img-fluid" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="image/123.png" class="d-block w-100 img-fluid" alt=" ">
+      </div>
+      <div class="carousel-item">
+        <img src="image/122.png" class="d-block w-100 img-fluid" alt=" ">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
+  <br>
+  <br>
+
+  <div class="container ">
+    <div class="row flex-lg-row-reverse align-items-left g-4 py-4">
+      <div class="col-6 col-sm-6 col-lg-6">
+        <img src="cell/image 3.png" class="zoom img-fluid" width="600" height="900">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh- mb-3">OnePlus 11 <sup>5G</sup></h1>
+        <br>
+        <br><br><br><br>
+        <p>Get a phone case for free.<br>
+          Add Buds Pro 2/2R at ₹2000 off.</p>
+        <h5>From ₹56 999*<br>
+          *Incl. bank discount</h5>
+        <br>
+        <nav class="blog-pagination" aria-label="Pagination">
+          <button class="cssbuttons-io">
+            <span align="center"> Buy Now</span>
+          </button>
+          <button class="cssbuttons-ios">
+            <span align="center"> LearnMore</span>
+          </button>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0  overflow-hidden flex-md-row mb-4  h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static color">
+
+            <h3 class="mb-0">OnePlus TV 65 <br> Q2 Pro</h3>
+            <div class="mb-1 text-muted">Nov 12</div>
+            <p>Save extra ₹5000 by using the RCC linked <br> device benefit</p>
+            <h5>At ₹94 999*<br>*Incl. bank discount</h5>
+          </div>
+          <div class="col-auto d-none d-lg-block ">
+            <img src="image/12222.png" class="zoom" width="190px" height="284px" role="img">
+          </div>
+          <nav class="blog-pagination" aria-label="Pagination">
+            <button class="cssbuttons-io">
+              <span align="center"> Buy Now</span>
+            </button>
+            <button class="cssbuttons-ios">
+              <span align="center"> LearnMore</span>
+            </button>
+          </nav>
+
+
+
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0  overflow-hidden flex-md-row mb-4  h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static color">
+            <h3 class="mb-0">OnePlus TV 65 <br> Q2 Pro</h3>
+            <div class="mb-1 text-muted">Nov 12</div>
+            <p>Save extra ₹5000 by using the RCC linked <br> device benefit</p>
+            <h5>At ₹94 999*<br>*Incl. bank discount</h5>
+          </div>
+          <div class="col-auto d-none d-lg-block ">
+            <img src="image/12223.png" class="zoom" width="190px" height="284px" role="img">
+          </div>
+          <nav class="blog-pagination" aria-label="Pagination">
+            <button class="cssbuttons-io">
+              <span align="center"> Buy Now</span>
+            </button>
+            <button class="cssbuttons-ios">
+              <span align="center"> LearnMore</span>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h5> This week's Hot Picks</h5>
+    <hr>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <div class="container-fluid">
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Phone</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">TV & Display</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Audio & Watch</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Tablet</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Accessories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Offer</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <br>
+  <div class="container">
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="cell/OP11_marble.png" class="zoom">
+          <div class="card-body">
+            <h3>OnePlus 11R 5G</h3>
+
+            <p class="card-text">No Cost EMI available up to 9 months.</p>
+            <br>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <button class="cssbuttons-ioss">
+                <span align="center"><img src="image/trolley.png" class="zoom" height="auto" width="20px"> From
+                  ₹39,999</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="cell/Vitamin-green.png" class="zoom">
+          <div class="card-body">
+            <h3>OnePlus Nord CE 3 Lite 5G</h3>
+            <p class="card-text">Get 2 months of YouTube Premium and 6 months of Spotify Premium for free.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <button class="cssbuttons-ioss">
+                <span align="center"><img src="image/trolley.png" class="zoom" height="auto" width="20px">From
+                  ₹19,999</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="cell/1-m00-4c-30-cpgm7moqqlgacqqqaary8omzel0913.png" class="zoom">
+          <div class="card-body">
+            <h3>OnePlus TV Y Series 32 | 43 Y1S Edge</h3>
+
+
+
+            <p class="card-text">Up to ₹1500 instant bank discount; Save extra ₹1000 </p>
+
+            <div class="d-flex justify-content-between align-items-center">
+              <button class="cssbuttons-ioss">
+                <span align="center"><img src="image/trolley.png" class="zoom" height="auto" width="20px">From ₹16,499
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="cell/1-m00-51-1b-cpgm7wq35waawfbbaas0vraswfq234.png" class="zoom">
+          <div class="card-body">
+            <h3>OnePlus Pad</h3>
+
+
+            <p class="card-text">No Cost EMI up to 12 months.</p>
+            <br><br><br><br>
+
+            <div class="d-flex justify-content-between align-items-center">
+              <button class="cssbuttons-ioss">
+                <span align="center"><img src="image/trolley.png" class="zoom" height="auto" width="20px"> From ₹37,999
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <br> <br> <br>
+
+  <div class="hello">
+    <div class="container ">
+
+      <div class="row flex-lg-row-reverse align-items-left g-4 py-4">
+        <div class="col-6 col-sm-6 col-lg-6">
+          <img src="cell/image 4.png" class="zoom img-fluid" width="600" height="480">
+        </div>
+        <div class="col-lg-6">
+          <h6 class="hhhh">One For All</h6>
+
+
+          <h1 class="display-5 fw-bold lh- mb-3 hhhh">OnePlus Ensemble</h1>
+          <br>
+          <br><br><br><br><br><br>
+          <p class="hhhh">Seamlessly connect all the OnePlus products to one another for a smart and smooth experience.
+          </p>
+          <h5 class="hhhh">From ₹109 997*<br>
+            *Incl. bank discount</h5>
+          <br>
+          <nav class="blog-pagination" aria-label="Pagination">
+            <button class="cssbuttonss-io">
+              <span align="center"> Buy Now</span>
+            </button>
+            <button class="cssbuttonss-ios">
+              <span align="center"> LearnMore</span>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <br> <br> <br>
+      <h6 class="hhhh">OneTopia</h6>
+      <hr class="hhhh">
+      <h2 class="hhhh">Relentless innovation defines who we are.
+        OnePlus inspires through innovation.<spam>Never Settle</spam>
+      </h2>
+
+      <div class="row flex-lg-row-reverse align-items-left g-4 py-4">
+        <div class="col-6 col-sm-6 col-lg-6">
+          <img src="cell/image 6.png" class="zoom img-fluid" width="600" height="480">
+        </div>
+        <div class="col-lg-6">
+
+          <h3 class=" hhhh">Evolve your digital life</h3>
+          <br>
+          <br><br><br><br><br><br><br><br><br>
+          <h6 class=" hhhh" font-size="5px">Discover how OnePlus empowers you with burdenless technology.</h6>
+
+          <a href="link"><u class=" hhhh">Learn more</u></a>
+          <br><br><
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <br>
+    <h4>Support</h4>
+    <hr>
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0  overflow-hidden flex-md-row mb-4  h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static color">
+
+            <h3 class="mb-0">Your personal helpdesk.</h3>
+            <br><br><br><br>
+            <p>From finding the perfect phone to quickly resolving queries, we're always
+              ready to help.</p>
+            <a href="link"><u>Let’s chat</u></a>
+
+
+
+          </div>
+          <div class="col-auto d-none d-lg-block ">
+            <img src="cell/Helpdesk-PC.jpg" class="zoom" width="190px" height="291px" role="img">
+          </div>
+
+
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0  overflow-hidden flex-md-row mb-4  h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static color">
+
+            <h3 class="mb-0">Your personal helpdesk.</h3>
+            <br><br><br>
+            <p>Our technical team is here to help
+              We have over 250 authorized service centers across India. All the fully-trained OnePlus staff are at your
+              service.
+            </p>
+            <a href="link"><u>Find nearest service center</u></a>
+
+
+
+
+
+          </div>
+          <div class="col-auto d-none d-lg-block ">
+            <img src="cell/Service-Center-desktop.jpg" class="zoom" width="190px" height="291px" role="img">
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="hello">
+    <footer class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <h5 class=" hhhh">Phones</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">OnePlus 11 5G</a></li><br>
+            <li><a class="link-secondary" href="#">OnePlus 11R 5G</a></li><br>
+            <li><a class="link-secondary" href="#">OnePlus Nord 3 5G</a></li><br>
+            <li><a class="link-secondary" href="#">OnePlus Nord CE3 5G</a></li><br>
+            <li><a class="link-secondary" href="#">OnePlus Nord CE 3 Lite 5G</a></li><br>
+            <li><a class="link-secondary" href="#">OnePlus 10R 5G</a></li><br>
+            <li><a class="link-secondary" href="#">OnePlus 10 Pro 5G</a></li><br>
+            <li><a class="link-secondary" href="#">OnePlus Nord 2T 5G</a></li><br>
+            <li><a class="link-secondary" href="#">OnePlus Nord CE 2 Lite 5G</a></li><br>
+            <li><a class="link-secondary" href="#">OnePlus 10T 5G</a></li><br>
+            <li><a class="link-secondary" href="#">OnePlus 9 5G</a></li><br>
+            <li><a class="link-secondary" href="#">OnePlus 9R 5G</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5 class=" hhhh">Store
+          </h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Tablet</a></li><br>
+            <li><a class="link-secondary" href="#">TV & Display</a></li><br>
+            <li><a class="link-secondary" href="#">Audio</a></li><br>
+            <li><a class="link-secondary" href="#">Wearables</a></li><br>
+            <li><a class="link-secondary" href="#">Cases & Protection</a></li><br>
+            <li><a class="link-secondary" href="#">Power & Cables</a></li><br>
+            <li><a class="link-secondary" href="#">Bundles</a></li><br>
+            <li><a class="link-secondary" href="#">Gear</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5 class=" hhhh">Support</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Protection Plan</a></li><br>
+            <li><a class="link-secondary" href="#">Shopping FAQs</a></li><br>
+            <li><a class="link-secondary" href="#">User Manuals</a></li><br>
+            <li><a class="link-secondary" href="#">Service Centers</a></li><br>
+            <li><a class="link-secondary" href="#">Software Update</a></li><br>
+            <li><a class="link-secondary" href="#">Affiliate Program</a></li><br>
+            <li><a class="link-secondary" href="#">Repair Service</a></li><br>
+            <li><a class="link-secondary" href="#">Repair Pricingr</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5 class=" hhhh">Explore</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">About OnePlus </a></li><br>
+            <li><a class="link-secondary" href="#">Community</a></li><br>
+            <li><a class="link-secondary" href="#">Press</a></li><br>
+            <li><a class="link-secondary" href="#">Campus Opportunities</a></li><br>
+            <li><a class="link-secondary" href="#">Careers</a></li><br>
+            <li><a class="link-secondary" href="#">Affiliate Program</a></li><br>
+            <li><a class="link-secondary" href="#">OxygenOS</a></li><br>
+            <li><a class="link-secondary" href="#">OnePlus Store app</a></li>
+          </ul>
+        </div>
+
+
+        <div class="col-6 col-md">
+          <h5 class=" hhhh">Programs</h5>
+          <ul class="list-unstyled text-small">
+
+
+            <li><a class="link-secondary" href="#"> Exchange Program</a></li><br>
+            <li><a class="link-secondary" href="#">Red Cable Club</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="container">
+      <img src="cell/foot.png" width="100%">
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+  <script src="script.js">
+  </script>
+
 </body>
 
 </html>
